@@ -1,0 +1,58 @@
+html, input {
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 2em;
+}
+
+.headerContainer {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    background-color: rgb(68, 23, 151);
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+form {
+    margin-top: 200px;
+}
+
+div {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+label, input, button {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+label {
+    text-align: right;
+    width: 30%;
+    margin-right: 2%;
+}
+
+input {
+    flex: auto;
+}
+
+button {
+    width: 70%;
+    margin: 0 auto;
+}
+
+error-output {
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(255, 0, 255);
+
+}

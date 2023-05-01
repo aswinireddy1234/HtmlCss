@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 3px;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    margin-left: 120px;
+}
+.container{
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 5px 3px 8px rgb(105, 105, 223);
+}
+button{
+    padding: 6px;
+    background-color: rgb(177, 25, 144);
+    font-size: medium;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 140px;
+    
+}
+button:hover{
+    background-color: coral;
+}
